@@ -1,5 +1,7 @@
-body {
-    margin: 0;
+#container {
+    width: 1000px;
+    margin: 20px auto;
     padding: 0;
     background: url(../)
 }
+
