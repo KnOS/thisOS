@@ -19,8 +19,9 @@ header {
     color: black;
     text-align: center;
     background-color: white;
-    padding: 40px;
-    
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 100;
 
 }
 
@@ -53,6 +54,7 @@ h1 {
     border-bottom: 5px solid black;
     display: inline-block;
     margin: 50px;
+    font-weight: 400;
     
 }
 
