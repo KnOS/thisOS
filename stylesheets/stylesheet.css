@@ -23,13 +23,15 @@ header {
 
 .button {
     width: 47.5%;
-    background-color: aqua;
+    background-color: white;
     display: inline-block;
     cursor: pointer;
     float:left;
     margin-top: 20px;
     padding: 30px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
     
 }
 
@@ -47,7 +49,7 @@ h1 {
     color: black;
     border-bottom: 5px solid black;
     display: inline-block;
-    margin: 30px;
+    margin: 50px;
     
 }
 
