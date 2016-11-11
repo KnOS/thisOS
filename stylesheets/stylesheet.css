@@ -37,12 +37,17 @@ header {
     font-size: 40px;
     text-align: center;
     
+    
 }
 
 .button:first-child {
     margin-right: 5%;
 }
 
+.button:hover{
+    background-color: #ff4c4c;
+    color:white;
+}
 
 .os{
     text-align: center
