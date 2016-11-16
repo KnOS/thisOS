@@ -1,3 +1,17 @@
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
 body {
     /* background: url(../images/pexels-photo.jpg); */
     background-size:cover;
@@ -36,7 +50,8 @@ header {
     box-sizing: border-box;
     font-size: 40px;
     text-align: center;
-    
+    color:inherit;
+    text-decoration: none;
     
 }
 
@@ -50,7 +65,8 @@ header {
 }
 
 .os{
-    text-align: center
+    text-align: center;
+    line-height: 1.5;
 }
 
 h1 {
@@ -65,13 +81,43 @@ h1 {
 
 li {
     text-align: left;
+    
 }
 
-li p {
-    display: inline-block
+li .infotop {
+    margin-top: 40px;
+}
+
+li .infotop p {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    
+    
 }
 
 li .infotop img {
     width: 200px;
-    height: 200px
+    height: 200px;
+    float: left;
 }
+
+.infolow {
+    margin-top: 20px;
+}
+
+
+li .infolow img {
+    width: 390px;
+    float:left;
+    margin-left: 10px;
+    
+}
+
+li .infolow p {
+    width: 300px;
+    float:left;
+    
+}
+
+
