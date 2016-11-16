@@ -1,5 +1,5 @@
 body {
-    background: url(../images/pexels-photo.jpg);
+    /* background: url(../images/pexels-photo.jpg); */
     background-size:cover;
     background-repeat: no-repeat;
     /* font-family: 'Unica One', cursive; */
@@ -63,4 +63,15 @@ h1 {
     
 }
 
+li {
+    text-align: left;
+}
 
+li p {
+    display: inline-block
+}
+
+li .infotop img {
+    width: 200px;
+    height: 200px
+}
