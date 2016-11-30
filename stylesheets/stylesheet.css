@@ -73,6 +73,8 @@ header {
     overflow-y: hidden;
     width: 100%;
     transition: max-height 0.1s;
+    color:white;
+    font-weight: 300;
 }
 
 .os.active{
@@ -82,8 +84,8 @@ header {
 
 h1 {
     font-size: 60px;
-    color: black;
-    border-bottom: 5px solid black;
+    color: white;
+    border-bottom: 5px solid white;
     display: inline-block;
     margin: 50px;
     font-weight: 400;
