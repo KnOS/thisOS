@@ -13,7 +13,8 @@
 }
 
 body {
-    /* background: url(../images/pexels-photo.jpg); */
+   /* background: url(../images/pexels-photo.jpg); */
+    background-color: #5E6D85;
     background-size:cover;
     background-repeat: no-repeat;
     /* font-family: 'Unica One', cursive; */
@@ -59,7 +60,8 @@ header {
     margin-right: 5%;
 }
 
-.button:hover{
+
+.button:hover, .button.active {
     background-color: #81B8CC;
     color:white;
 }
@@ -67,7 +69,15 @@ header {
 .os{
     text-align: center;
     line-height: 1.5;
-    display: none;
+    max-height: 0;
+    overflow-y: hidden;
+    width: 100%;
+    transition: max-height 0.1s;
+}
+
+.os.active{
+    max-height: 3000px;
+    transition: max-height 4s;
 }
 
 h1 {
