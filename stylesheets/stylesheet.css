@@ -114,10 +114,13 @@ li .infolow img {
     
 }
 
-li .infolow p {
+li .infolow .procons {
     width: 300px;
     float:left;
-    
 }
 
 
+li .infolow .procons ol {
+    list-style: disc;
+    margin-left: 30px
+}
