@@ -1,3 +1,5 @@
 $(function() {
-    // put code here
+    $('.button.desktop').on('click', function(event) {
+        $('.desktop.os').show();
+    })
 })

@@ -67,6 +67,7 @@ header {
 .os{
     text-align: center;
     line-height: 1.5;
+    display: none;
 }
 
 h1 {
