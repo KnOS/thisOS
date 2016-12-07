@@ -31,13 +31,18 @@ body {
 }
 
 header {
-    color: black;
+    color: white;
     text-align: center;
-    background-color: white;
+    line-height: 1.5;
+    background-color: none;
     padding: 20px;
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 300;
 
+}
+
+header img{
+    height: 300px;
 }
 
 .button {
@@ -51,8 +56,9 @@ header {
     box-sizing: border-box;
     font-size: 40px;
     text-align: center;
-    color:inherit;
+    color: #81B8CC;
     text-decoration: none;
+    box-shadow: 5px 5px 0px 0px rgba(129,184,204,1);
     
 }
 
@@ -64,6 +70,7 @@ header {
 .button:hover, .button.active {
     background-color: #81B8CC;
     color:white;
+    box-shadow: 5px 5px 0px 0px #FFFFFF;
 }
 
 .os{
