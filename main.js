@@ -12,4 +12,21 @@ $(function() {
         $(this).addClass('active');
         
     })
+    
+    $('body>i.fa').on('click', function(event) {
+        $('body').animate({scrollTop:0})
+    })
+    
+    $(window).on('scroll', function(event) {
+        console.log("I've been TRIGGGGERED")
+        if($(window).scrollTop()>600){
+            $('body>i.fa').fadeIn()
+        }
+        else{
+            $('body>i.fa').fadeOut()
+        }
+            
+        
+    })
+    
 })

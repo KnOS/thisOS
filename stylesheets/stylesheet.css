@@ -144,3 +144,22 @@ li .infolow .procons ol {
     list-style: disc;
     margin-left: 30px
 }
+
+body>i.fa {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #81B8CC;
+    padding: 0 10px 7px 10px;
+    border-radius: 20px;
+    box-shadow: 2px -2px 106px 14px rgba(0,0,0,0.35);
+    display: none;
+}
+
+body>i.fa:hover {
+    color: #81B8CC;
+    background-color: white;
+}
