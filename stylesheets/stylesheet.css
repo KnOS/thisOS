@@ -13,10 +13,10 @@
 }
 
 body {
-   /* background: url(../images/pexels-photo.jpg); */
-    background-color: #5E6D85;
+    background-image: url(/images/MotherBoardBackground.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     /* font-family: 'Unica One', cursive; */
     font-family: 'Oswald', sans-serif;
 }
