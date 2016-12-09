@@ -168,3 +168,10 @@ body>i.fa:hover {
 ol {
     font-family: 'Ubuntu', sans-serif;
 }
+
+.credits{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+}
