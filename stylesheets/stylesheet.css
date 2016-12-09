@@ -82,6 +82,7 @@ header img{
     transition: max-height 0.1s;
     color:white;
     font-weight: 300;
+    
 }
 
 .os.active{
@@ -162,4 +163,9 @@ body>i.fa {
 body>i.fa:hover {
     color: #81B8CC;
     background-color: white;
+}
+
+ol {
+    font-family: 'Ubuntu', sans-serif;
+
 }
