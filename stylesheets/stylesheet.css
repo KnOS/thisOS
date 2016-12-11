@@ -38,6 +38,7 @@ header {
     padding: 20px;
     font-size: 25px;
     font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -59,6 +60,7 @@ header img{
     color: #81B8CC;
     text-decoration: none;
     box-shadow: 5px 5px 0px 0px rgba(129,184,204,1);
+    
     
 }
 
